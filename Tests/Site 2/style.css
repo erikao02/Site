@@ -8,14 +8,14 @@
 }
 
 :root {
-  --cor-do-header: #17b123;
+  --cor-do-header: #25b338;
   --cor-do-fundo: #f6fdff;
   --cor-do-titulo: #31953b;
   --cor-do-menu-1: #122d85;
   --cor-do-menu-2: #303030cc;
   --cor-da-fonte-menu: #ffffff;
   --cor-de-fundo-escola: #0000008c;
-  --cor-do-footerkkk: #010141;
+  --cor-do-footer: #010141;
 }
 
 body{
@@ -48,9 +48,13 @@ header{
 }
 #header-title{
     color: white;
-    font: 20pt Arial;
+    font: 20pt Arial italic;
+    font-family: Helvetica;
     padding-left: 12px;
     font-weight: bold;
     margin: auto;
     text-shadow: 2px 2px black;
+}
+.barra{
+    padding-bottom: 200px;
 }
