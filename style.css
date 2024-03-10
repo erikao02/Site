@@ -3,8 +3,10 @@ body{
 }
 .container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    background-color: white;
+    width: 100%;
  }
 .item{
     width: auto;  
